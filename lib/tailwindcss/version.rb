@@ -1,3 +1,3 @@
 module Tailwindcss
-  VERSION = "2.0.11.pre.dev"
+  VERSION = "2.0.12.pre.dev"
 end
