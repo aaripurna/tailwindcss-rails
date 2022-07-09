@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    tailwindcss-rails (2.0.10)
+    tailwindcss-rails-plugable (2.0.11.pre.dev)
       railties (>= 6.0.0)
 
 GEM
@@ -93,7 +93,7 @@ DEPENDENCIES
   actionmailer (>= 6.0.0)
   debug (>= 1.0.0)
   sqlite3
-  tailwindcss-rails!
+  tailwindcss-rails-plugable!
 
 BUNDLED WITH
    2.3.14
