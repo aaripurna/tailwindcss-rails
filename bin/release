@@ -16,7 +16,7 @@ git tag v$VERSION
 git push --tags
 
 rake package
-for gem in pkg/tailwindcss-rails-$VERSION*.gem ; do
+for gem in pkg/tailwindcss-rails-plugable-$VERSION*.gem ; do
   gem push "$gem" --host https://rubygems.org
   rm "$gem"
 done
